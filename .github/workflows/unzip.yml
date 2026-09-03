@@ -9,8 +9,8 @@ jobs:
       
       - name: Unzip
         run: |
-          unzip -o Rosefall-Reborn-Definitive-v4-Offline.zip -d .
-          rm Rosefall-Reborn-Definitive-v4-Offline.zip
+          unzip -o Rosefall-Reborn-Definitive-v4-Offline.zip.zip -d .
+          rm Rosefall-Reborn-Definitive-v4-Offline.zip.zip
       
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
