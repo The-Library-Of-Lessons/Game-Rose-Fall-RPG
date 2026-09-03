@@ -1,0 +1,9 @@
+ROSEFALL REBORN — CHARACTER OVERHAUL OFFLINE
+
+1. Extract the ZIP completely.
+2. Open PLAY_ROSEFALL.html in a full modern browser.
+3. On mobile, rotate to landscape.
+4. Tap New journey or Continue.
+
+The game needs no internet connection after extraction.
+Use the same browser and file location to keep your save available.
