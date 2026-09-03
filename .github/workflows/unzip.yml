@@ -1,0 +1,18 @@
+name: Unzip file
+on: workflow_dispatch
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Unzip
+        run: |
+          unzip -o Rosefall-Reborn-Definitive-v3-Offline.zip -d .
+          rm Rosefall-Reborn-Definitive-v3-Offline.zip
+      
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Unzip Rosefall Reborn files"
